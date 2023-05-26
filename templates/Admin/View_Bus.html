@@ -1,0 +1,45 @@
+{% extends 'Admin/Admin_index.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action="" method="get">
+{% csrf_token %}
+<table class="table table-striped">
+  <tr>
+    <th width="50" scope="col">#</th>
+    <th width="300" scope="col">Bus Name</th>
+    <th width="300" scope="col">Registeraion Number</th>
+    <th width="300" scope="col">Status</th>
+{#    <th width="44" scope="col">Owner</th>#}
+{#    <th width="47" scope="col">Route</th>#}
+      <th width="300"></th>
+      <th></th>
+  </tr>
+    {% for i in Bus_Details %}
+  <tr>
+    <td>&nbsp;{{ forloop.counter }}</td>
+    <td>&nbsp;{{ i.bus_name }}</td>
+    <td>&nbsp;{{ i.registration_number }}</td>
+    <td>&nbsp;{{ i.status }}</td>
+{#    <td> {{ i.owner_id.name }}</td>#}
+{#    <td>&nbsp;{{ i.route_id }}</td>#}
+      <td>
+    <a href="/unblock/{{ i.id }}" class="btn btn-outline-success">Unblock</a>
+    <a href="/block/{{ i.id }}" class="btn btn-outline-danger">Block</a>
+      </td>
+
+  <td><a href="/delete_bus/{{ i.id }}" class="btn btn-danger">Delete</a></td>
+  </tr>
+    {% endfor %}
+</table>
+
+</form>
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends 'Traffic_Police/TrafficPolice_index.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action="" method="get">
+    {% csrf_token %}
+<table class="table table-striped">
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Bus</th>
+    <th scope="col">Rating</th>
+  </tr>
+    {% for i in busRatings %}
+  <tr>
+    <td>&nbsp;{{ forloop.counter }}</td>
+    <td>&nbsp;{{ i.bus_id.bus_name  }}</td>
+    <td> {{ i.rating }}</td>
+  </tr>
+    {% endfor %}
+</table>
+
+</form>
+</body>
+</html>
+{% endblock %}

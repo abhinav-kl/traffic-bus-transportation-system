@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        form {
+            padding: 10px;
+        }
+        button {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<form action="" method="get">
+    {% csrf_token %}
+<table width="500" border="1">
+  <tr>
+    <th width="42" scope="col">Traffic Police</th>
+    <th width="44" scope="col">Driver</th>
+    <th width="44" scope="col">Owner</th>
+    <th width="26" scope="col">Bus</th>
+    <th width="41" scope="col">Route</th>
+    <th width="30" scope="col">Stop</th>
+    <th width="14" scope="col">Feedback</th>
+  </tr>
+  <tr>
+    <td><a href="/traffic_police">Add</a><br />
+    <a href="/view_traffic_police">View</a>
+    </td>
+    <td><a href="/add_driver">Add</a><br />
+    <a href="/view_driver">View</a></td>
+    <td>
+        <a href="/view_owner_request">Request</a><br>
+        <a href="/view_owners">View</a>
+    </td>
+    <td><a href="/bus_details">View</a></td>
+    <td><a href="/add_routes">Add</a><br />
+    <a href="/view_routes">View</a></td>
+    <td><a href="/add_stops">Add</a><br />
+    <a href="/view_stops">View</a></td>
+    <td><a href="/view_feedback">View</a></td>
+  </tr>
+    <button><a href="/logout">LogOut</a></button>
+</table>
+
+</form>
+{% block body %}
+{% endblock %}
+</body>
+</html>

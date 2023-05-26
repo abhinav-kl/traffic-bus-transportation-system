@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+    <style type="text/css">
+        form {
+            padding: 10px;
+        }
+        button {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<form action="" method="get">
+    {% csrf_token %}
+<table width="500" border="1">
+  <tr>
+    <th scope="col">Driver</th>
+    <th scope="col">Bus</th>
+    <th scope="col">Complaints</th>
+    <th scope="col">Traffic Blocks</th>
+    <th scope="col">Rating</th>
+  </tr>
+  <tr>
+    <td><a href="/traffic_view_drivers">View</a></td>
+    <td><a href="/traffic_view_bus">View</a></td>
+    <td><a href="/View_complaint">View</a></td>
+    <td>
+        <a href="/add_blocks">Add</a><br>
+        <a href="/view_blocks">View</a>
+    </td>
+    <td><a href="/traffic_view_rating">View</a></td>
+  </tr>
+    <button><a href="/logout">LogOut</a></button>
+</table>
+
+</form>
+{% block body %}
+{% endblock %}
+</body>
+</html>

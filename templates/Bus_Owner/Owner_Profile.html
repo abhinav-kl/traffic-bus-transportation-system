@@ -1,0 +1,46 @@
+{% extends 'Bus_Owner/Owner_index.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action="" method="get">
+{% csrf_token %}
+<table class="table table-striped">
+  <tr>
+    <td>&nbsp;<img src="{{ Profile.image }}" height="100" width="100"></td>
+  </tr>
+    <tr>
+    <td>&nbsp;{{ Profile.name }}</td>
+    </tr>
+    <tr>
+    <td>&nbsp;{{ Profile.address }}</td>
+    </tr>
+    <tr>
+    <td>&nbsp;{{ Profile.age }}</td>
+    </tr>
+    <tr>
+    <td>&nbsp;{{ Profile.gender }}</td>
+    </tr>
+    <tr>
+    <td>&nbsp;{{ Profile.place }}</td>
+    </tr>
+    <tr>
+    <td>&nbsp;{{ Profile.phone }}</td>
+    </tr>
+    <tr>
+    <td>&nbsp;{{ Profile.association_ID }}</td>
+    </tr>
+    <tr>
+      <td><a href="/edit_profile/{{ Profile.id }}" class="btn btn-outline-warning">Edit</a></td>
+    </tr>
+</table>
+
+</form>
+</body>
+</html>
+{% endblock %}

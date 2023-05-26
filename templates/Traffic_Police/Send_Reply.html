@@ -1,0 +1,27 @@
+{% extends 'Traffic_Police/TrafficPolice_index.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action="" method="post">
+    {% csrf_token %}
+<table class="table table-active">
+  <tr>
+    <th width="60" scope="row">Reply</th>
+    <td width="287"><label for="textarea"></label>
+      <textarea name="textarea" id="textarea" cols="45" rows="5" class="form-control">{{ reg_complaint.reply }}</textarea></td>
+  </tr>
+  <tr>
+    <th colspan="2" scope="row"><input type="submit" name="button" id="button" value="Submit" class="btn btn-outline-primary"/></th>
+    </tr>
+</table>
+
+</form>
+</body>
+</html>
+{% endblock %}

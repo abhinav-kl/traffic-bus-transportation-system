@@ -1,0 +1,33 @@
+{% extends 'Bus_Owner/Owner_Home.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action="" method="get">
+    {% csrf_token %}
+<table width="200" border="1">
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Bus</th>
+    <th scope="col">Route</th>
+    <th scope="col">Tracking</th>
+  </tr>
+    {% for i in location %}
+    <tr>
+    <td>&nbsp;{{ forloop.counter }}</td>
+    <td>&nbsp;{{ i.bus_name }}</td>
+    <td>&nbsp;{{ i.route_id.start }}-{{ i.route_id.end }}</td>
+    <td>&nbsp;<a href="https://www.google.com/maps/?q={{ 'latitude'}},{{ 'longitude' }}">TRACK</a></td>
+  </tr>
+    {% endfor %}
+</table>
+
+</form>
+</body>
+</html>
+{% endblock %}

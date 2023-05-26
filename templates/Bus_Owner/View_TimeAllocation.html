@@ -1,0 +1,36 @@
+{% extends 'Bus_Owner/Owner_index.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action="" method="get">
+{% csrf_token %}
+<table class="table table-striped">
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Bus</th>
+    <th scope="col">Stops</th>
+    <th scope="col">Arrival Time</th>
+    <th scope="col">Departure Time</th>
+  </tr>
+    {% for i in timeAllocation %}
+    <tr>
+    <td>&nbsp;{{ forloop.counter }}</td>
+    <td> {{ i.bus_id.bus_name }}</td>
+    <td>&nbsp;{{ i.stop_id.stop }}</td>
+    <td>&nbsp;{{ i.arrival_time }}</td>
+    <td> {{ i.departure_time }}</td>
+    <td><a href="/delete_time_allocation/{{ i.id }}" class="btn btn-outline-danger">Delete</a></td>
+  </tr>
+    {% endfor %}
+</table>
+
+</form>
+</body>
+</html>
+{% endblock %}
