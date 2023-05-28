@@ -20,6 +20,7 @@
     <th scope="row">Route</th>
     <td><label for="select"></label>
       <select name="select" id="select" class="form-control">
+            <option value="0">--Select Route--</option>
           {% for i in blockRoute %}
           <option value="{{ i.id }}">{{ i.start }}-{{ i.end }}</option>
           {% endfor %}
@@ -30,6 +31,7 @@
     <th scope="row">Stop</th>
     <td><label for="select2"></label>
       <select name="select2" id="select2" class="form-control">
+            <option value="0">--Select Stop--</option>
           {% for i in blockStop %}
               <option value="{{ i.id }}">{{ i.stop }}</option>
           {% endfor %}

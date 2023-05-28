@@ -17,6 +17,7 @@
     <th scope="col">Stops</th>
     <th scope="col">Arrival Time</th>
     <th scope="col">Departure Time</th>
+      <th><a href="/time_allocation" class="btn btn-outline-info">Add</a></th>
   </tr>
     {% for i in timeAllocation %}
     <tr>
@@ -25,7 +26,8 @@
     <td>&nbsp;{{ i.stop_id.stop }}</td>
     <td>&nbsp;{{ i.arrival_time }}</td>
     <td> {{ i.departure_time }}</td>
-    <td><a href="/delete_time_allocation/{{ i.id }}" class="btn btn-outline-danger">Delete</a></td>
+    <td>
+        <a href="/delete_time_allocation/{{ i.id }}" class="btn btn-outline-danger">Delete</a></td>
   </tr>
     {% endfor %}
 </table>

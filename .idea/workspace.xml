@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cc56132-7a0b-4391-a1cd-2b988071502a" name="Default" comment="" />
+    <list default="true" id="6cc56132-7a0b-4391-a1cd-2b988071502a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Bus_Owner/Add_Bus.html" afterPath="$PROJECT_DIR$/templates/Bus_Owner/Add_Bus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Bus_Owner/Owner_Registration.html" afterPath="$PROJECT_DIR$/templates/Bus_Owner/Owner_Registration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Bus_Owner/View_TimeAllocation.html" afterPath="$PROJECT_DIR$/templates/Bus_Owner/View_TimeAllocation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Traffic_Police/Add_Blocks.html" afterPath="$PROJECT_DIR$/templates/Traffic_Police/Add_Blocks.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,31 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TrafficApp/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="50" column="10" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TrafficApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="81" column="39" lean-forward="true" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
+            <state relative-caret-position="300">
+              <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TrafficApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="579" column="40" lean-forward="false" selection-start-line="579" selection-start-column="40" selection-end-line="579" selection-end-column="40" />
+            <state relative-caret-position="-4638">
+              <caret line="302" column="39" lean-forward="true" selection-start-line="302" selection-start-column="39" selection-end-line="302" selection-end-column="39" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -50,10 +47,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Add_Blocks.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/Traffic_Police/Add_Blocks.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Owner_index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/Owner_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="29" column="74" lean-forward="true" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="-23">
               <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
               <folding />
             </state>
@@ -73,8 +90,28 @@
       <file leaf-file-name="View_OwnersRequest.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Admin/View_OwnersRequest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
+            <state relative-caret-position="277">
               <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Add_Bus.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/Add_Bus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret line="21" column="93" lean-forward="false" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_TimeAllocation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/View_TimeAllocation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="73" lean-forward="false" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -85,26 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
               <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrival_Time.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/Arrival_Time.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Add_Bus.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/Add_Bus.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="95" lean-forward="false" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -132,6 +149,9 @@
       <find>jso</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -156,7 +176,6 @@
         <option value="$PROJECT_DIR$/templates/Bus_Owner/View_Routes.html" />
         <option value="$PROJECT_DIR$/templates/Bus_Owner/View_Stops.html" />
         <option value="$PROJECT_DIR$/templates/Bus_Owner/Update_Bus_info.html" />
-        <option value="$PROJECT_DIR$/templates/Bus_Owner/View_TimeAllocation.html" />
         <option value="$PROJECT_DIR$/templates/Traffic_Police/View_Block.html" />
         <option value="$PROJECT_DIR$/templates/Traffic_Police/View_Driver.html" />
         <option value="$PROJECT_DIR$/templates/Traffic_Police/View_Rating.html" />
@@ -167,21 +186,22 @@
         <option value="$PROJECT_DIR$/templates/Admin/Add_Routes.html" />
         <option value="$PROJECT_DIR$/templates/Admin/Add_Stops.html" />
         <option value="$PROJECT_DIR$/templates/Admin/Add_TrafficPolice.html" />
-        <option value="$PROJECT_DIR$/templates/Traffic_Police/Add_Blocks.html" />
         <option value="$PROJECT_DIR$/templates/Traffic_Police/View_Complaint.html" />
         <option value="$PROJECT_DIR$/templates/Traffic_Police/Send_Reply.html" />
         <option value="$PROJECT_DIR$/templates/Admin/View_Bus.html" />
-        <option value="$PROJECT_DIR$/templates/Bus_Owner/Add_Bus.html" />
         <option value="$PROJECT_DIR$/templates/Traffic_Police/View_Bus.html" />
         <option value="$PROJECT_DIR$/templates/Bus_Owner/View_Bus.html" />
-        <option value="$PROJECT_DIR$/templates/Bus_Owner/Owner_index.html" />
-        <option value="$PROJECT_DIR$/templates/Bus_Owner/Owner_Registration.html" />
         <option value="$PROJECT_DIR$/templates/Bus_Owner/ajaxviewstops.html" />
         <option value="$PROJECT_DIR$/templates/Bus_Owner/Arrival_Time.html" />
         <option value="$PROJECT_DIR$/templates/Admin/View_OwnersRequest.html" />
         <option value="$PROJECT_DIR$/TrafficApp/urls.py" />
         <option value="$PROJECT_DIR$/templates/Login.html" />
+        <option value="$PROJECT_DIR$/templates/Bus_Owner/Owner_index.html" />
         <option value="$PROJECT_DIR$/TrafficApp/views.py" />
+        <option value="$PROJECT_DIR$/templates/Bus_Owner/Owner_Registration.html" />
+        <option value="$PROJECT_DIR$/templates/Bus_Owner/Add_Bus.html" />
+        <option value="$PROJECT_DIR$/templates/Bus_Owner/View_TimeAllocation.html" />
+        <option value="$PROJECT_DIR$/templates/Traffic_Police/Add_Blocks.html" />
       </list>
     </option>
   </component>
@@ -197,6 +217,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1048" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -212,6 +233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -280,14 +303,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Bus_Owner" />
+              <option name="myItemId" value="Traffic_Police" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -543,15 +564,15 @@
     <frame x="-8" y="-8" width="1936" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24253732" sideWeight="0.4941349" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24520256" sideWeight="0.4941349" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27272728" sideWeight="0.5021322" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27272728" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27222833" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31982476" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3194292" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18656716" sideWeight="0.5058651" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978093" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -655,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/View_TimeAllocation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="27" column="82" lean-forward="false" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/Owner_Home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -754,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Traffic_Police/Add_Blocks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="86" lean-forward="false" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Admin/Update_TrafficPolice.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -804,14 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/Add_Bus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="95" lean-forward="false" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Traffic_Police/View_Bus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -823,13 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/Owner_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="32" column="121" lean-forward="false" selection-start-line="32" selection-start-column="121" selection-end-line="32" selection-end-column="121" />
         </state>
       </provider>
     </entry>
@@ -854,50 +846,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/ajaxviewstops.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/Arrival_Time.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Admin/View_OwnersRequest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Admin/View_Driver.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/Owner_Registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="116" column="53" lean-forward="false" selection-start-line="116" selection-start-column="53" selection-end-line="116" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -914,23 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrafficApp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="50" column="10" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrafficApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="81" column="39" lean-forward="true" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,17 +873,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrafficApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/View_Driver.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/ajaxviewstops.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/View_OwnersRequest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="35" column="53" lean-forward="false" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/Owner_Registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrafficApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/Owner_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="29" column="74" lean-forward="true" selection-start-line="29" selection-start-column="74" selection-end-line="29" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/Add_Bus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="21" column="93" lean-forward="false" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Bus_Owner/View_TimeAllocation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="73" lean-forward="false" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TrafficApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="579" column="40" lean-forward="false" selection-start-line="579" selection-start-column="40" selection-end-line="579" selection-end-column="40" />
+        <state relative-caret-position="-4638">
+          <caret line="302" column="39" lean-forward="true" selection-start-line="302" selection-start-column="39" selection-end-line="302" selection-end-column="39" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Traffic_Police/Add_Blocks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
