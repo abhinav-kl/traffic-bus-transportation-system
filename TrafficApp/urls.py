@@ -72,7 +72,7 @@ urlpatterns = [
     path('Owner_view_routes', views.owner_view_routes),
     path('Owner_view_stops', views.owner_view_stops),
     path('time_allocation', views.bus_time_allocation),
-    path('ajaxviewstops/<id>', views.dynamic_selct_stops),
+    path('ajaxviewstops/<id>', views.dynamic_select_stops),
     path('view_time_allocation', views.view_bus_time_allocation),
     path('delete_time_allocation/<id>', views.delete_time_allocation),
     path('view_location', views.view_bus_locations),

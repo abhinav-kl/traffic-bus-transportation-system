@@ -468,7 +468,7 @@ def bus_time_allocation(request):
         return render(request, 'Bus_Owner/Arrival_Time.html', {'busName': reg, 'stopName': stop_name})
 
 
-def dynamic_selct_stops(request, id):
+def dynamic_select_stops(request, id):
     reg = bus_stops.objects.filter(route_id=id)
     return render(request, 'Bus_Owner/ajaxviewstops.html', {'eid': reg})
 
@@ -505,9 +505,8 @@ def android_login(request):
                     {'status': 'ok', 'type': q.usertype, 'lid': q.id, 'name': driver.name, 'phone': driver.phone,
                      'email': driver.email, 'image': driver.image})
             else:
-                passenger = passengers.objects.get(login=str(q.id))
                 return JsonResponse(
-                    {'status': 'ok', 'type': q.usertype, 'lid': q.id, 'name': passenger.name, 'email': passenger.email})
+                    {'status': 'ok', 'type': q.usertype, 'lid': q.id})
         else:
             return JsonResponse({'status': "Not found"})
 
